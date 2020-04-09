@@ -14,7 +14,7 @@ function generatePassword () {
   var specialCharacter = ["!", "%", "&", ",", "*", "+", "-", ".", "/", "<", ">", "?","~",",",".","|","{","}","[","]",];
 
   // create an array of lowercase letters
-  var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+  var lowerCases = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
   
   // create an array of uppercase letters
   var upperCases = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
@@ -51,20 +51,20 @@ function generatePassword () {
   }
 
    // if the user said yes to lowercase leters, concat lower_case array to all_characters
-  if (splCharacters = true) {
-    all_characters.concat (specialCharacter)
+  if (lowerCase = true) {
+    all_characters.concat (lowerCases)
   }
 
   // if the user said yes to numerics, concat numbers array to all_characters 
-  if (splCharacters = true) {
-    all_characters.concat (specialCharacter)
+  if (numeric = true) {
+    all_characters.concat (number)
   }
 
-  var children = hege.concat(stale, kai);
+  alert (all_characters)
   // create a for loop that executes pwd_length times.
-  for (var = i; i < pwd_length; i++) {
+  //for (var = i; i < pwd_length; i++) {
     
-  }
+  //}
 
 
   //if ((parseInt(pwd_length) < 8) || (parseInt (pwd_length) > 128)){
@@ -85,7 +85,7 @@ function generatePassword () {
   
   
  
-  // if the user said yes to numerics, concat numbers array to all_characters 
+
  
   // [0...........................................length-1]
   // [!,@,# ..., A,B,C,D,E...a,b,c,d,e...,1,2,3,4,5]
